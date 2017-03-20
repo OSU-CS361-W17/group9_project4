@@ -70,7 +70,7 @@ public class Main {
             modelFromReq = gson.fromJson(result, HardAI.class);
         return modelFromReq;
     }
-
+// This comment to demonstrate version control
     private static boolean checkPlace(Request req){
         String id = req.params("id");
         String row = req.params("row");
